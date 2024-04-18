@@ -1,0 +1,116 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #f5f5f5;
+    background: var(--color-dark); */
+    background-color: darkslategrey;
+    height: 100vh;
+   min-height: 100vh;
+   display: grid;
+   place-items: center;
+
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+.seachItem{
+    width: 50%;
+    border: none;
+    outline: none;
+    height: 20px;
+    padding: 16px;
+    border-radius: 5px 0 0 5px;
+    font-size: 18px;
+}
+.seachItem:focus{
+    color: #00b4cc;
+}
+.searchButton{
+    background-color: #048b9c;
+    color: #fff;
+    width: 80px;
+    height: 32px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.searchButton:hover{
+    background-color: #17b8ce;
+}
+.widget{
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: rgb(46, 44, 44);
+}
+.weatherIcon{
+    height: 120px;
+    background-color: wheat;
+    width: 100%;
+    border-radius:   20px 20px 0 0;;
+}
+.weatherIcon{
+    place-items: center;
+    font-size: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.weatherInfo{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+.discription{
+    background-color: black;
+}
+.date{
+    font-size: 20px;
+    background-color: #17b8ce;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.temprature{
+    font-size: 60px;
+    font-weight: 600;
+}
+.weatherExtraInfo{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    height:80px;
+    width: 100%;
+    
+}
+.two-sided-section{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+p{
+    font-size: 15px;
+}
+p i{
+    font-size: 30px;
+    margin-right: 20px;
+}
